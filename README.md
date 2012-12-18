@@ -7,7 +7,8 @@ education-quiz
 
 **Software Requirements Specification (http://en.wikipedia.org/wiki/Software_requirements_specification)**
 
-**Introduction Purpose**
+Introduction Purpose
+====================
 
 This software is to run tutorials and quizzes in an internet browser using HTML5 and javascript. The original idea is to write the code in F# using Visual Studio 2012 with Websharper under a GNU AGPL v3 licence(http://www.websharper.com/licensing) this would also allow the use of Sencha extentions (http://www.websharper.com/downloads , http://www.sencha.com/products/touch/license/) and then convert it to HTML5/javascript using Websharper (other tools could also be used). 
 
@@ -41,36 +42,82 @@ Pages should load the essentials first then the background code and graphics (e.
 
 
 
- **Definitions**
+ Definitions
+ ===========
 
- **System overview**
+ System overview
+ ===============
 
  References
+ ==========
+
  
 Overall description Product perspective System Interfaces
+=========================================================
+
  User Interfaces
+ ---------------
+
  Hardware interfaces
+ -------------------
+
  Software interfaces
+ -------------------
+
  Communication Interfaces
+ ------------------------
+
  Memory Constraints
+ ------------------
+
  Operations
+ ----------
+
  Site Adaptation Requirements
+ ----------------------------
+
  
 Product functions
+=================
+
  User characteristics
+ --------------------
+
  Constraints, assumptions and dependencies
+ -----------------------------------------
+
  
 Specific requirements External interface requirements
+=====================================================
+
  Functional requirements
+ -----------------------
+
  Performance requirements
+ ------------------------
+
  Design constraints Standards Compliance
+ ---------------------------------------
  
 Logical database requirement
+============================
+
  Software System attributes Reliability
+ --------------------------------------
+
  Availability
+ ------------
  Security
+ --------
+
  Maintainability
+ ---------------
+
  Portability
+ -----------
+
  
 Other requirements
+==================
+
 
