@@ -1,14 +1,15 @@
 education-quiz
 ==============
 
-F# Javascript HTML5 education client application with minimal PHP server interaction
+**F# Javascript HTML5 education client application with minimal PHP server interaction**
 
 
 
-Software Requirements Specification (http://en.wikipedia.org/wiki/Software_requirements_specification)
+**Software Requirements Specification (http://en.wikipedia.org/wiki/Software_requirements_specification)**
 
-Introduction Purpose
-         This software is to run tutorials and quizzes in an internet browser using HTML5 and javascript. The original idea is to write the code in F# using Visual Studio 2012 with Websharper under a GNU AGPL v3 licence(http://www.websharper.com/licensing) this would also allow the use of Sencha extentions (http://www.websharper.com/downloads , http://www.sencha.com/products/touch/license/) and then convert it to HTML5/javascript using Websharper (other tools could also be used). 
+**Introduction Purpose**
+
+This software is to run tutorials and quizzes in an internet browser using HTML5 and javascript. The original idea is to write the code in F# using Visual Studio 2012 with Websharper under a GNU AGPL v3 licence(http://www.websharper.com/licensing) this would also allow the use of Sencha extentions (http://www.websharper.com/downloads , http://www.sencha.com/products/touch/license/) and then convert it to HTML5/javascript using Websharper (other tools could also be used). 
 
 Tutorials should be able to include SVG and animations such as Adobe Edge.
  
@@ -40,8 +41,10 @@ Pages should load the essentials first then the background code and graphics (e.
 
 
 
- Definitions
- System overview
+ **Definitions**
+
+ **System overview**
+
  References
  
 Overall description Product perspective System Interfaces
