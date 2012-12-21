@@ -42,14 +42,20 @@ Pages should load the essentials first then the background code and graphics (e.
 
 
 
- Definitions
- ----------
+Definitions
+----------
+
 
  System overview
  --------------
+F# programming to be converted to HTML5/javascript for client internet browser.
+PHP programming for server
 
  References
  ---------
+GNU AGPL v3 licence: http://www.gnu.org/licenses/agpl-3.0.html
+Websharper: www.websharper.com
+www.sencha.com
 
  
 Overall description Product perspective System Interfaces
@@ -57,67 +63,96 @@ Overall description Product perspective System Interfaces
 
  User Interfaces
  --------------
+Main screen, sub-menu with scroll down containing buttons to other menues.
 
  Hardware interfaces
  ------------------
+Any browser enabled device (phone, touchpad, PC, etc)
 
  Software interfaces
  ------------------
+HTML5 enabled Internet browser
 
  Communication Interfaces
  -----------------------
+web links or email between client and server for updates, results and content
 
  Memory Constraints
  -----------------
+Most content on client HDD, phone RAM (variation in features depending on client)
 
  Operations
  ---------
+Open index page on client, this links to sub-menues:
+Recall learnt material
+Theory material
+Quiz material
+Results
+Shop
+Other
 
  Site Adaptation Requirements
  ---------------------------
-
+Need to change client HTML5 based on device (phone, touch, PC, etc.)
  
 Product functions
 ================
 
  User characteristics
  -------------------
+Teachers
+Students
 
  Constraints, assumptions and dependencies
  ----------------------------------------
-
+Load text based content before graphics
  
 Specific requirements External interface requirements
 ====================================================
 
  Functional requirements
  ----------------------
+Only send new data
+update client to receipt successful results upload
+store data in database in such a fashion to minimise cost (e.g 1KB blocks for Amaxon's DynamoDB)
+
 
  Performance requirements
  -----------------------
+Client page opens in 1 second.
+Server page opens in 1 second.
 
  Design constraints Standards Compliance
  --------------------------------------
+Must satisfy HTML5
  
 Logical database requirement
 ===========================
 
  Software System attributes Reliability
  -------------------------------------
+Create code for multiple types of Databases (e.g. SQL, DynamoDB, mySQL)
 
  Availability
  -----------
+24/7/365
+
  Security
  -------
+store multiple copies of data in geographic separate locations to ensure redundancy
 
  Maintainability
  --------------
+automatic
 
  Portability
  ----------
-
+communication with open data types (e.g. CSV)
  
 Other requirements
 =================
+due to limitations in DynamoDB and other databases students need to be limited to a particular school.
+a data table with summary data to be created at the same time as individual results (e.g. update averages)
+Content must have a voting system with each question to determine which questions need replacing.
 
 
