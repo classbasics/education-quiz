@@ -40,7 +40,7 @@ Multimedia with sound be accessible to the deaf.
 
 Pages should load the essentials first then the background code and graphics (e.g. button with 'Exit' text before the exit graphics)
 
-
+ ---------
 
 Definitions
 ----------
