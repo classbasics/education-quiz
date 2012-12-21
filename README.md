@@ -6,6 +6,7 @@ education-quiz
 
 
 **Software Requirements Specification (http://en.wikipedia.org/wiki/Software_requirements_specification)**
+ ---------
 
 Introduction Purpose
 ===================
@@ -41,48 +42,66 @@ Multimedia with sound be accessible to the deaf.
 Pages should load the essentials first then the background code and graphics (e.g. button with 'Exit' text before the exit graphics)
 
  ---------
+ ---------
 
 Definitions
 ----------
+none
 
+ ---------
 
- System overview
- --------------
+System overview
+--------------
 F# programming to be converted to HTML5/javascript for client internet browser.
 PHP programming for server
 
- References
  ---------
+
+References
+---------
 GNU AGPL v3 licence: http://www.gnu.org/licenses/agpl-3.0.html
 Websharper: www.websharper.com
 www.sencha.com
+
+ ---------
+ ---------
 
  
 Overall description Product perspective System Interfaces
 ========================================================
 
- User Interfaces
- --------------
+User Interfaces
+--------------
 Main screen, sub-menu with scroll down containing buttons to other menues.
 
- Hardware interfaces
- ------------------
+ ---------
+
+Hardware interfaces
+------------------
 Any browser enabled device (phone, touchpad, PC, etc)
 
- Software interfaces
- ------------------
+ ---------
+
+Software interfaces
+------------------
 HTML5 enabled Internet browser
 
- Communication Interfaces
- -----------------------
+ ---------
+
+Communication Interfaces
+-----------------------
 web links or email between client and server for updates, results and content
 
- Memory Constraints
- -----------------
+ ---------
+
+Memory Constraints
+-----------------
 Most content on client HDD, phone RAM (variation in features depending on client)
 
- Operations
  ---------
+
+Operations
+---------
 Open index page on client, this links to sub-menues:
 Recall learnt material
 Theory material
@@ -91,68 +110,97 @@ Results
 Shop
 Other
 
- Site Adaptation Requirements
- ---------------------------
+ ---------
+
+Site Adaptation Requirements
+---------------------------
 Need to change client HTML5 based on device (phone, touch, PC, etc.)
+
+ ---------
+ ---------
  
 Product functions
 ================
 
- User characteristics
- -------------------
+User characteristics
+-------------------
 Teachers
 Students
 
- Constraints, assumptions and dependencies
- ----------------------------------------
+ ---------
+
+Constraints, assumptions and dependencies
+----------------------------------------
 Load text based content before graphics
+
+ ---------
+ ---------
  
 Specific requirements External interface requirements
 ====================================================
 
- Functional requirements
- ----------------------
+Functional requirements
+----------------------
 Only send new data
 update client to receipt successful results upload
 store data in database in such a fashion to minimise cost (e.g 1KB blocks for Amaxon's DynamoDB)
 
+ ---------
 
- Performance requirements
- -----------------------
+
+Performance requirements
+-----------------------
 Client page opens in 1 second.
 Server page opens in 1 second.
 
- Design constraints Standards Compliance
- --------------------------------------
+ ---------
+
+Design constraints Standards Compliance
+--------------------------------------
 Must satisfy HTML5
+
+ ---------
  
 Logical database requirement
 ===========================
 
- Software System attributes Reliability
- -------------------------------------
+Software System attributes Reliability
+-------------------------------------
 Create code for multiple types of Databases (e.g. SQL, DynamoDB, mySQL)
 
- Availability
- -----------
+ ---------
+
+Availability
+-----------
 24/7/365
 
- Security
- -------
+ ---------
+
+Security
+-------
 store multiple copies of data in geographic separate locations to ensure redundancy
 
- Maintainability
- --------------
+ ---------
+
+Maintainability
+--------------
 automatic
 
- Portability
- ----------
+ ---------
+
+Portability
+----------
 communication with open data types (e.g. CSV)
+
+ ---------
+ ---------
  
 Other requirements
 =================
 due to limitations in DynamoDB and other databases students need to be limited to a particular school.
 a data table with summary data to be created at the same time as individual results (e.g. update averages)
 Content must have a voting system with each question to determine which questions need replacing.
+
+ ---------
 
 
